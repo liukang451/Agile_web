@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CSS </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css.css">
+        <script type="text/javascript" src="JS.js"></script>
+    </head>
+
+    <body>
+       
+      <!-- header block --> 
+      <div class="header">
+          <h1 style="font-size: 50px; color: white;">CITS5505 PROJECT 1</h1>
+          <p style="font-size: 20px; color:white">KANG LIU<br>22781942@student.uwa.edu.au </p>
+      </div>
+
+      <!-- navbar block --> 
+      <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">CITS5505 PJ1</a>
+          </div>
+          <ul class="nav navbar-nav" style="font-size: 15px;">
+            <li><a href="html.html">HTML</a></li>
+            <li class="active"><a href="CSS.html">CSS</a></li>
+            <li><a href="javascript.html">JavaScript</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right" style="font-size: 15px;">
+            <li><a href="CV.html"><span class="glyphicon glyphicon-user"></span> CV </a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- CSS intro block -->  
+      <div class="container" style="margin-bottom: 20px;">
+        <div class="row">
+          <div class="col-lg-8" style="background-color:whitesmoke;">
+            <h1><span style="padding: 10px;">What is CSS?</span></h1>
+            <div class="row">
+              <div class="col-lg-1">
+                <span class="glyphicon glyphicon-chevron-right" style="margin-top: 10px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                </span>
+                <span class="glyphicon glyphicon-chevron-right" style="margin-top: 165px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                </span>
+              </div>
+              <div class="col-lg-11">
+                <p>
+                    CSS (Cascading Style Sheets) is a language used to represent file styles such as HTML or XML.
+                    CSS can not only statically decorate the web page, but also dynamically format the elements of the web page with various scripting languages.
+                    CSS provides pixel-level control over the placement of elements on a page, 
+                    supports almost all font size styles, and has the ability to edit web objects and model styles.
+                </p>
+                <p>
+                    CSS simplifies the formatting code for web pages, and external stylesheets are stored in the browser's cache, 
+                    making it faster to download and display, and reducing the amount of code that needs to be uploaded 
+                    (because duplicate formatting is saved only once).
+                    You can change the style of the entire site simply by modifying one single CSS stylesheet file.
+                </p>
+              </div>
+            </div>  
+          </div>
+          <div class="col-lg-4">
+            <div style="margin-top: 120px; text-align: center;">
+              <img style="display: inline-block;" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1587112733168&di=24abc2ba05f88c85a622aa816dc14ad1&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F00%2F86%2F51%2F2456eb8bc0270d9.jpg" width="170px" height="170px"/>
+            </div>
+          </div>
+        </div>    
+      </div>
+
+      <!-- CSS history & revolution block --> 
+      <div class="container block_unit">
+        <div class="row">
+          <h1 style="margin-left: 20px;"><span style="padding: 10px;">History & Revolution</span></h1>
+          <div class="col-lg-1">
+            <span class="glyphicon glyphicon-chevron-right" style="margin-top: 10px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+            </span>
+          </div>
+          <div class="col-lg-11">
+            <p>
+                Cascading Style Sheets was developed by a World Wide Web Consortium team headed by Bert Bos and Håkon Lie. 
+                The intent of the project was to create a styling language 
+                that could be integrated with HTML and XHTML to complement its structuring capabilities with styling rules.
+                Håkon first proposed CSS at a conference in Chicago in 1994, and again at the WWW web conference in 1995. 
+            </p>
+          </div>
+        </div>
+      </div>  
+
+      <!-- CSS1 intro block --> 
+      <div class="container block_unit">
+        <div class="row">
+          <h2><span style="background-color: #1abc9c;padding: 10px;">CSS1</span></h2>
+          <div class="col-lg-2">
+            <h3 style="margin-left:  30px;;">1996</h3>
+          </div>
+          <div class="col-lg-10">
+            <p>
+                The first version of CSS, CSS1, was released in 1996 and includes basic styling functions such as font, color, and background images. 
+                Most current browsers fully support CSS1.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CSS2 intro block --> 
+      <div class="container block_unit">
+        <div class="row">
+          <h2><span style="background-color: #1abc9c;padding: 10px;">CSS2</span></h2>
+          <div class="col-lg-2">
+            <h3 style="margin-left:  30px;;">1998</h3>
+          </div>
+          <div class="col-lg-10">
+            <p>
+                CSS2 came out in 1998, and it added some high end features to CSS. CSS2 allows for positioning of elements on the page for page layout, 
+                provides support for downloadable fonts, and allows pages to be formatted for printing.
+                By providing a means to avoid the use of tables in page layout, 
+                and by allowing pages to be formatted entirely differently for paginated (printed) layout versus continuous (on-screen) layout, 
+                CSS2 has become a language that has gone beyond anything one could ever do with HTML.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CSS3 intro block --> 
+      <div class="container block_unit">
+        <div class="row">
+          <h2><span style="background-color: #1abc9c;padding: 10px;">CSS3</span></h2>
+          <div class="col-lg-2">
+            <h3 style="margin-left:  30px;;">2001</h3>
+          </div>
+          <div class="col-lg-10">
+            <p>
+                CSS3 is still in development, but will add support for additional presentation media to the mix, 
+                such as aural (audio) styling. CSS3 will also involve a restructuring of CSS into modules that support different styling elements. 
+                This will not affect older style sheets, it will merely provide a better way of structuring new ones.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- CSS syntax code block --> 
+      <div class="container block_unit">
+        <h1 style="text-align: center;"><span style="padding: 10px;">CSS Syntax</span></h1>
+        <div class="row" style="margin-top: 20px;">
+          <div class="col-lg-6">
+            <div style="background-color: white;">
+              <p style="margin-left: 10px;">
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                &lt;head&gt;<br>
+                &lt;meta charset=&quot;utf-8&quot;&gt; <br>
+                &lt;title&gt;Click RUN&lt;/title&gt; <br>
+                &lt;style&gt;<br>
+                p<br>
+                {<br>
+                    &nbsp;  color:blue;<br>
+                    &nbsp;  text-align:center;<br>
+                } <br>
+                &lt;/style&gt;<br>
+                &lt;/head&gt;<br><br>
+                
+                &lt;body&gt;<br>
+                &lt;p&gt;Hello World!&lt;/p&gt;<br>
+                &lt;p&gt;This paragraph is decorated by CSS&lt;/p&gt;<br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+                <h1 style="font-size: 30px;margin-left:20px ;">CSS syntax consists of 2 parts:<br></h1>
+                <div class="col-lg-1">
+                  <span class="glyphicon glyphicon-chevron-right" style="margin-top: 20px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                  </span>
+                  <span class="glyphicon glyphicon-chevron-right" style="margin-top: 35px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                  </span>
+                </div>
+                <div class="col-lg-11">
+                  <h1 style="font-size: 30px;">
+                    Selector<br><br>
+                    Property<br><br>
+                  </h1>
+                </div>
+              </div>
+            <div style="background-color: white; display: none;width: 100%;" id="textbox1">
+              <div style="margin-left: 10px;">
+                <p style="color:blue;text-align:center"> 
+                    Hello World<br>
+                    This paragraph is decorated by CSS
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div style="text-align: center; margin-top: 20px;margin-bottom: 30px;">
+            <button onclick="showtext('textbox1')" type="button" class="btn btn-default" style="background-color: #1abc9c;border-style: none; border-radius: 0%;">
+              <h2 style="margin: 10px;">RUN</h2>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Id & class code block --> 
+      <div class="container block_unit">
+        <h1 style="text-align: center;"><span style="padding: 10px;">Id and Class Selector</span></h1>
+        <div class="row" style="margin-top: 20px;">
+          <div class="col-lg-6">
+            <div style="background-color: white;">
+              <p style="margin-left: 10px;">
+                ...<br>
+                &lt;style&gt;<br>
+                #para1<br>
+                {<br>
+                    &nbsp;  color:blue;<br>
+                    &nbsp;  text-align:center;<br>
+                } <br>
+                &lt;/style&gt;<br>
+                ...<br>
+                &lt;body&gt;<br>
+                &lt;p id=&quot;para1&quot;&gt;Hello World!&lt;/p&gt;<br>
+                &lt;p&gt;This paragraph is not affected by CSS&lt;/p&gt;<br>
+                &lt;/body&gt;<br>
+                ...
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+                <h1 style="font-size: 30px;margin-left:20px ;">Id selector syntax:<br></h1>
+                <div class="col-lg-1">
+                  <span class="glyphicon glyphicon-chevron-right" style="margin-top: 20px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                  </span>
+                  <span class="glyphicon glyphicon-chevron-right" style="margin-top: 35px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                  </span>
+                </div>
+                <div class="col-lg-11">
+                  <h1 style="font-size: 30px;">
+                    id="para1"<br><br>
+                    #para1{property:value;}<br><br>
+                  </h1>
+                </div>
+              </div>
+            <div style="background-color: white; display: none;width: 100%;" id="textbox2">
+              <div style="margin-left: 10px;">
+                <p style="color:blue;text-align:center">Hello World<br></p>  
+                <p>This paragraph is not affected by CSS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div style="text-align: center; margin-top: 20px;margin-bottom: 30px;">
+            <button onclick="showtext('textbox2')" type="button" class="btn btn-default" style="background-color: #1abc9c;border-style: none; border-radius: 0%;">
+              <h2 style="margin: 10px;">RUN</h2>
+            </button>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 20px;">
+          <div class="col-lg-6">
+            <div style="background-color: white;">
+              <p style="margin-left: 10px;">
+                ...<br>
+                &lt;style&gt;<br>
+                .para1<br>
+                {<br>
+                    &nbsp;  color:red;<br>
+                    &nbsp;  text-align:center;<br>
+                } <br>
+                &lt;/style&gt;<br>
+                ...<br>
+                &lt;body&gt;<br>
+                &lt;p class=&quot;para1&quot;&gt;Hello World!&lt;/p&gt;<br>
+                &lt;p&gt;This paragraph is not affected by CSS&lt;/p&gt;<br>
+                &lt;/body&gt;<br>
+                ...
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+                <h1 style="font-size: 30px;margin-left:20px ;">Class selector syntax:<br></h1>
+                <div class="col-lg-1">
+                  <span class="glyphicon glyphicon-chevron-right" style="margin-top: 20px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                  </span>
+                  <span class="glyphicon glyphicon-chevron-right" style="margin-top: 35px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                  </span>
+                </div>
+                <div class="col-lg-11">
+                  <h1 style="font-size: 30px;">
+                    class="para1"<br><br>
+                    .para1{property:value;}<br><br>
+                  </h1>
+                </div>
+              </div>
+            <div style="background-color: white; display: none;width: 100%;" id="textbox3">
+              <div style="margin-left: 10px;">
+                <p style="color:red;text-align:center">Hello World<br></p>  
+                <p>This paragraph is not affected by CSS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div style="text-align: center; margin-top: 20px;margin-bottom: 30px;">
+            <button onclick="showtext('textbox3')" type="button" class="btn btn-default" style="background-color: #1abc9c;border-style: none; border-radius: 0%;">
+              <h2 style="margin: 10px;">RUN</h2>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- pesudo- code block --> 
+      <div class="container block_unit">
+        <h1 style="text-align: center;"><span style="padding: 10px;">Pesudo-element & Pesudo-class</span></h1>
+        <div class="row" style="margin-top: 20px;">
+          <div class="col-lg-6">
+            <div style="background-color: white;">
+              <p style="margin-left: 10px;">
+                ...<br>
+                &lt;style&gt;<br>
+                a:link {color:#000000;}      /* unvisited link*/<br>
+                a:visited {color:#00FF00;}  /* visited link */<br>
+                a:hover {color:#FF00FF;}  /* hovering on the link */<br>
+                a:active {color:#0000FF;}  /* clicking on the link */<br>
+                &lt;/style&gt;<br>
+                ...<br>
+                &lt;body&gt;<br>
+                &lt;p&gt;&lt;b&gt;&lt;a href=&quot;/css/&quot; target=&quot;_blank&quot;&gt;this is a link&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;<br>
+                &lt;/body&gt;<br>
+                ...
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+                <h1 style="font-size: 30px;margin-left:20px ;">Pesudo-class syntax<br></h1>
+                <div class="col-lg-1">
+                  <span class="glyphicon glyphicon-chevron-right" style="margin-top: 20px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                  </span>
+                </div>
+                <div class="col-lg-11">
+                  <h1 style="font-size: 30px;">
+                    selector:pseudo-class {property:value;}<br><br>
+                  </h1>
+                </div>
+              </div>
+            <div style="background-color: white; display: none;width: 100%;" id="textbox4">
+              <div style="margin-left: 10px;">
+                <a href="#" class="example" target="_blank">This is a link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div style="text-align: center; margin-top: 20px;margin-bottom: 30px;">
+            <button onclick="showtext('textbox4')" type="button" class="btn btn-default" style="background-color: #1abc9c;border-style: none; border-radius: 0%;">
+              <h2 style="margin: 10px;">RUN</h2>
+            </button>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 20px;">
+          <div class="col-lg-6">
+            <div style="background-color: white;">
+              <p style="margin-left: 10px;">
+                ...<br>
+                &lt;style&gt;<br>
+                p:first-line<br> 
+                {<br>
+                color:#ff0000;<br>
+                font-variant:small-caps;<br>
+                }<br>
+                &lt;/style&gt;<br>
+                ...<br>
+                &lt;body&gt;<br>
+                &lt;p&gt;This is the first-line of a paragraph.<br>
+                This line is not affected by CSS.&lt;/p&gt;<br>
+                &lt;/body&gt;<br>
+                ...
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+                <h1 style="font-size: 30px;margin-left:20px ;">Pesudo-element syntax:<br></h1>
+                <div class="col-lg-1">
+                  <span class="glyphicon glyphicon-chevron-right" style="margin-top: 20px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                  </span>
+                </div>
+                <div class="col-lg-11">
+                  <h1 style="font-size: 30px;">
+                    selector:pseudo-element {property:value;}<br><br>
+                  </h1>
+                </div>
+              </div>
+            <div style="background-color: white; display: none;width: 100%;" id="textbox5">
+              <div style="margin-left: 10px;">
+                <p class="example">This is the first-line of a paragraph.<br>
+                This line is not affected by CSS.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div style="text-align: center; margin-top: 20px;margin-bottom: 30px;">
+            <button onclick="showtext('textbox5')" type="button" class="btn btn-default" style="background-color: #1abc9c;border-style: none; border-radius: 0%;">
+              <h2 style="margin: 10px;">RUN</h2>
+            </button>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Footer block --> 
+      <footer id="footer" style="background-color: gray;">
+        <div class="container">
+          <div class="row">
+            <a href="html.html">
+            <div class="col-lg-3" style="text-align: center;height: 100px;">
+              <span class="glyphicon glyphicon-header footer_icon"></span>
+              <span class="footer_icon_text"></br>HTML</span>
+            </div>
+            </a>  
+            <a href="css.html">
+              <div class="col-lg-3" style="text-align: center;height: 100px;">
+                <span class="glyphicon glyphicon-picture footer_icon"></span>
+                <span class="footer_icon_text"></br>CSS</span>
+              </div>
+            </a> 
+            <a href="javascript.html">
+              <div class="col-lg-3" style="text-align: center;height: 100px;">
+                <span class="glyphicon glyphicon-cog footer_icon"></span>
+                <span class="footer_icon_text"></br>JavaScript</span>
+              </div>
+            </a> 
+            <a href="CV.html">
+              <div class="col-lg-3" style="text-align: center;height: 100px;">
+                <span class="glyphicon glyphicon-user footer_icon"></span>
+                <span class="footer_icon_text"></br>CV</span>
+              </div>
+            </a> 
+          </div>    
+        </div>
+
+        <div class="row" style="margin-top: 70px;text-align: center;">
+          <div style="background-color: white; width: 90%;height: 2px;margin: 0 auto;"></div>
+          <div>
+            <p style="color: white;">
+              Designed by Eddie
+            </p>
+          </div>
+        </div>
+      </footer>
+      
+
+    </body>
+</html>

@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    padding: 50px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1587054252296&di=016113373d59346362d0767f9e4a4235&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F5%2F57bab71b94d33.jpg");
+}
+
+
+h1 {
+    font-size: 40px;
+    color: dimgray;
+}
+
+p {
+    font-size: 20px;
+    color: dimgray;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    margin-right: 25px;
+}
+
+h2 {
+    color:white;
+    text-align: center;
+}
+
+h3 {
+    color:  #1abc9c;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+h4 {
+    color:white;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size:25px
+}
+
+nav {
+    padding: 12px;
+}
+
+ul.navbar-nav>li:hover{
+    background-color: lightgray;
+}
+
+.block_unit {
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+a.example {
+    font-size: 30px;
+}
+a.example:link {color:#000000;}     
+a.example:visited {color:#00FF00;}  
+a.example:hover {color:#FF00FF;}  
+a.example:active {color:#0000FF;} 
+
+p.example:first-line {
+    color:#ff0000;
+    font-variant:small-caps;
+}
+
+.footer_icon {
+    color:  white;
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+.footer_icon_text {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}

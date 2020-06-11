@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JavaScript </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css.css">
+        <script type="text/javascript" src="JS.js"></script>
+    </head>
+    <body>
+      <!-- header block -->  
+      <div class="header">
+          <h1 style="font-size: 50px; color: white;">CITS5505 PROJECT 1</h1>
+          <p style="font-size: 20px; color:white">KANG LIU<br>22781942@student.uwa.edu.au </p>
+      </div>
+      <!-- navbar block -->
+      <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">CITS5505 PJ1</a>
+          </div>
+          <ul class="nav navbar-nav" style="font-size: 15px;">
+            <li><a href="html.html">HTML</a></li>
+            <li><a href="CSS.html">CSS</a></li>
+            <li class="active"><a href="javascript.html">JavaScript</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right" style="font-size: 15px;">
+            <li><a href="CV.html"><span class="glyphicon glyphicon-user"></span> CV </a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- JS intro block -->
+      <div class="container" style="margin-bottom: 20px;">
+        <div class="row">
+          <div class="col-lg-8" style="background-color:whitesmoke;">
+            <h1><span style="padding: 10px;">What is JavaScript?</span></h1>
+            <div class="row">
+              <div class="col-lg-1">
+                <span class="glyphicon glyphicon-chevron-right" style="margin-top: 10px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                </span>
+                <span class="glyphicon glyphicon-chevron-right" style="margin-top: 137px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                </span>
+              </div>
+              <div class="col-lg-11">
+                <p>
+                  JavaScript is a scripting language that is one of the three core languages used to develop websites. 
+                  Whereas HTML and CSS give a website structure and style, JavaScript lets you add functionality and behaviors to your website, 
+                  allowing your website’s visitors to interact with content in many imaginative ways.
+                </p>
+                <p>
+                  Although it is best known as a scripting language for developing Web pages, it is also used in many non-browser environments. 
+                  JavaScript is based on prototype programming, and supports object-oriented, imperative, 
+                  and declarative styles
+                </p>
+              </div>
+            </div>  
+          </div>
+          <div class="col-lg-4">
+            <div style="margin-top: 120px; text-align: center;">
+              <img style="display: inline-block;" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=608060988,2441259237&fm=26&gp=0.jpg"
+               width="170px" height="170px"/>
+            </div>
+          </div>
+        </div>    
+      </div>
+
+      <!-- Origin intro block -->
+      <div class="container block_unit">
+        <div class="row">
+          <h1 style="margin-left: 20px;"><span style="padding: 10px;">Origin</span></h1>
+          <div class="col-lg-1">
+            <span class="glyphicon glyphicon-chevron-right" style="margin-top: 10px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+            </span>
+          </div>
+          <div class="col-lg-11">
+            <p>
+              The early to mid-1990s was an important time for the internet. Key players like Netscape and Microsoft were in the midst of browser wars,
+              with Netscape’s Navigator and Microsoft’s Internet Explorer going head to head.
+              In September 1995, a Netscape programmer named Brandan Eich developed a new scripting language in just 10 days. 
+              It was originally named Mocha, but quickly became known as LiveScript and, later, JavaScript.
+            </p>
+          </div>
+        </div>
+      </div>  
+
+      <!-- ECMAScript intro block -->
+      <div class="container block_unit">
+        <div class="row">
+          <h1 style="margin-left: 20px;"><span style="padding: 10px;">ECMAScript</span></h1>
+          <div class="col-lg-1">
+            <span class="glyphicon glyphicon-chevron-right" style="margin-top: 10px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+            </span>
+            <span class="glyphicon glyphicon-chevron-right" style="margin-top: 110px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+            </span>
+          </div>
+          <div class="col-lg-11">
+            <p>
+              In 1997, due to JavaScript’s rapid growth, it became clear that the language would need to be properly maintained and managed. 
+              Therefore, Netscape handed the job of creating a language specification to the European Computer Manufacturers Association (ECMA),
+               a body founded with the goal of standardizing computing. 
+              The ECMA specifications were labeled ECMA-262 and ECMAScript languages included JavaScript, JScript, and ActionScript.
+            </p>
+            <p>
+                Between 1997 and 1999, ECMA-262 had three revisions, but nearly 10 years later,
+                version 4 was abandoned due to differing opinions on the direction of the language and its proposed features. 
+                Interestingly, many of these controversial features, such as generators, iterators, and destructuring assignments, 
+                have been included in more recent ECMAScript specifications.
+            </p>
+          </div>
+        </div>
+      </div> 
+
+      <!-- AJAX intro block -->
+      <div class="container block_unit">
+        <div class="row">
+          <h1 style="margin-left: 20px;"><span style="padding: 10px;">AJAX</span></h1>
+          <div class="col-lg-1">
+            <span class="glyphicon glyphicon-chevron-right" style="margin-top: 10px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+            </span>
+            <span class="glyphicon glyphicon-chevron-right" style="margin-top: 55px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+            </span>
+            <span class="glyphicon glyphicon-chevron-right" style="margin-top: 110px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+            </span>
+          </div>
+          <div class="col-lg-11">
+            <p>
+              AJAX, or Asynchronous Javascript And XML, is a web development technique for creating interactive, fast, 
+              dynamic web applications that can update portions of a web page without reloading the entire page.
+            </p>
+            <p>
+              The year 2005 proved to be a big one for JavaScript. A paper released by Jesse James Garrett introduced Ajax, 
+              a revolutionary suite of technologies that included JavaScript. 
+              Ajax vastly improved user experience by allowing web pages to feel more like native desktop apps. 
+              This really pushed JavaScript into the spotlight as a professional programming language.
+            </p>
+            <p>
+              This paper is considered to be one of the founding backbones of the JavaScript community. At the time, JavaScript had many challenges, 
+              including its verbose nature when doing simple things and the incompatibility issues between browsers. 
+              The community responded with large and popular JavaScript frameworks and libraries, such as Dojo and Mootools and jQuery.
+            </p>
+          </div>
+        </div>
+      </div> 
+
+      <!-- JS today intro block -->
+      <div class="container" style="margin-bottom: 20px;">
+        <div class="row">
+          <div class="col-lg-7" style="background-color:whitesmoke;">
+            <h1><span style="padding: 10px;">JavaScript Today</span></h1>
+            <div class="row">
+              <div class="col-lg-1">
+                <span class="glyphicon glyphicon-chevron-right" style="margin-top: 10px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                </span>
+                <span class="glyphicon glyphicon-chevron-right" style="margin-top: 140px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                </span>
+              </div>
+              <div class="col-lg-11">
+                <p>
+                  From its slightly rocky start, JavaScript has risen to be the most popular programming language in the world. According to GitHub’s 2018 Octoverse report,
+                  there are more JavaScript code repositories than any other language—and that number is steadily on the rise.
+                </p>
+                <p>
+                  A series of JavaScript frameworks and libraries, such as Ember, Angular, React, and Vue, 
+                  have been developed to allow powerful and complicated web applications to be written using small teams within short time spans. 
+                  Alongside client and server software, it is now even possible to write native mobile apps using JavaScript. Unsurprisingly, 
+                  this is becoming increasingly popular due to the ability to share code between the worlds of mobile and web.
+                </p>
+              </div>
+            </div>  
+          </div>
+          <div class="col-lg-5">
+            <div style="margin-top: 40px; text-align: center;">
+              <img style="display: inline-block;" src="javascript_today.jpg" width="420px" height="420px"/>
+            </div>
+          </div>
+        </div>    
+      </div>
+
+      <!-- JS DOM code block -->
+      <div class="container block_unit">
+        <h1 style="text-align: center;"><span style="padding: 10px;">JS DOM</span></h1>
+        <div class="row" style="margin-top: 20px;">
+          <div class="col-lg-6">
+            <div style="background-color: white;">
+              <p style="margin-left: 10px;">
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                &lt;body&gt;<br><br>
+                &lt;p class=&quot;intro&quot;&gt;DOM is useful&lt;/p&gt;<br>
+                &lt;p class=&quot;intro&quot;&gt;Click RUN&lt;/p&gt;<br>
+                &lt;p id=&quot;demo&quot;&gt;&lt;/p&gt;<br><br>
+                &lt;script&gt;<br>
+                var x = document.getElementsByClassName(&quot;intro&quot;);<br>
+                document.getElementById(&quot;demo&quot;).innerHTML = &#x27;Class =&quot;intro&quot; index 0: &#x27; + x[0].innerHTML;<br>
+                &lt;/script&gt;<br><br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+                <h1 style="font-size: 30px;margin-left:20px ;">DOM HTML<br></h1>
+                <div class="col-lg-1">
+                  <span class="glyphicon glyphicon-chevron-right" style="margin-top: 20px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                  </span>
+                  <span class="glyphicon glyphicon-chevron-right" style="margin-top: 35px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                  </span>
+                </div>
+                <div class="col-lg-11">
+                  <h1 style="font-size: 30px;">
+                    DOM can select HTML element<br><br>
+                    DOM can change property of HTML element<br><br>
+                  </h1>
+                </div>
+              </div>
+            <div style="background-color: white; display: none;width: 100%;" id="textbox1">
+              <div style="margin-left: 10px;"> 
+                <p class="intro">DOM is useful</p>
+                <p class="intro">Click RUN</p>
+                <p id="demo"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div style="text-align: center; margin-top: 20px;margin-bottom: 30px;">
+            <button onclick="showtext('textbox1')" type="button" class="btn btn-default" style="background-color: #1abc9c;border-style: none; border-radius: 0%;">
+              <h2 style="margin: 10px;">RUN</h2>
+            </button>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 20px;">
+          <div class="col-lg-6">
+            <div style="background-color: white;">
+              <p style="margin-left: 10px;">
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                &lt;body&gt;<br><br>
+
+                &lt;p id=&quot;p2&quot;&gt;Hello World!&lt;/p&gt;<br><br>
+
+                &lt;script&gt;<br>
+                document.getElementById(&quot;p2&quot;).style.color = &quot;blue&quot;;<br>
+                document.getElementById(&quot;p2&quot;).style.textAlign = &quot;center&quot;;<br>
+                &lt;/script&gt;<br><br>
+
+                &lt;p&gt;Style of the paragraph above is changed.&lt;/p&gt;<br><br>
+
+                &lt;/body&gt;<br>
+                &lt;/html&gt;<br>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+                <h1 style="font-size: 30px;margin-left:20px ;">DOM CSS<br></h1>
+                <div class="col-lg-1">
+                  <span class="glyphicon glyphicon-chevron-right" style="margin-top: 20px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                  </span>
+                </div>
+                <div class="col-lg-11">
+                  <h1 style="font-size: 30px;">
+                  DOM can change style of HTML element  <br><br>
+                  </h1>
+                </div>
+              </div>
+            <div style="background-color: white; display: none;width: 100%;" id="textbox2">
+              <div style="margin-left: 10px;">
+                <p id="p2">Hello World<br></p>  
+                <p>Style of the above paragraph is changed.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div style="text-align: center; margin-top: 20px;margin-bottom: 30px;">
+            <button onclick="showtext('textbox2')" type="button" class="btn btn-default" style="background-color: #1abc9c;border-style: none; border-radius: 0%;">
+              <h2 style="margin: 10px;">RUN</h2>
+            </button>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 20px;">
+          <div class="col-lg-6">
+            <div style="background-color: white;">
+              <p style="margin-left: 10px;">
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                &lt;body&gt;<br><br>
+
+                &lt;div onmousedown=&quot;mDown(this)&quot; onmouseup=&quot;mUp(this)&quot;<br>
+                style=&quot;background-color:lightblue;width:90px;height:20px;padding:40px;&quot;&gt;<br>
+                Click me&lt;/div&gt;<br><br>
+
+                &lt;script&gt;<br>
+                function mDown(obj) {<br>
+                  obj.style.backgroundColor = &quot;red&quot;;<br>
+                  obj.innerHTML = &quot;Mouse up&quot;;<br>
+                }<br><br>
+
+                function mUp(obj) {<br>
+                  obj.style.backgroundColor=&quot;green&quot;;<br>
+                  obj.innerHTML=&quot;Thank you&quot;;<br>
+                }<br>
+                &lt;/script&gt;<br><br>
+
+                &lt;/body&gt;<br>
+                &lt;/html&gt;<br>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+                <h1 style="font-size: 30px;margin-left:20px ;">DOM EVENT<br></h1>
+                <div class="col-lg-1">
+                  <span class="glyphicon glyphicon-chevron-right" style="margin-top: 20px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                  </span>
+                </div>
+                <div class="col-lg-11">
+                  <h1 style="font-size: 30px;">
+                    DOM allows JavaScript to react to HTML events<br><br>
+                  </h1>
+                </div>
+              </div>
+            <div style="background-color: white; display: none;width: 100%;" id="textbox3">
+              <div style="margin-left: 10px;height: 100px;">
+                <div onmousedown="mDown(this)" onmouseup="mUp(this)" style="background-color:lightblue;width:50%;height:40px;margin:20px;text-align: center;font-size: x-large;">
+                Click me
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div style="text-align: center; margin-top: 20px;margin-bottom: 30px;">
+            <button onclick="showtext('textbox3')" type="button" class="btn btn-default" style="background-color: #1abc9c;border-style: none; border-radius: 0%;">
+              <h2 style="margin: 10px;">RUN</h2>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- JS form code block -->
+      <div class="container block_unit">
+        <h1 style="text-align: center;"><span style="padding: 10px;">JS Form</span></h1>
+        <div class="row" style="margin-top: 20px;">
+          <div class="col-lg-6">
+            <div style="background-color: white;">
+              <p style="margin-left: 10px;">
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                &lt;head&gt;<br>
+                &lt;script&gt;<br>
+                function validateForm() {<br>
+                  var x = document.forms[&quot;myForm&quot;][&quot;fname&quot;].value;<br>
+                  if (x == &quot;&quot;) {<br>
+                    alert(&quot;User name can't be empty！&quot;);<br>
+                    return false;<br>
+                  }<br>
+                }<br>
+                &lt;/script&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;body&gt;<br><br>
+
+                &lt;form name=&quot;myForm&quot; action=&quot;/demo/action_page.php&quot; onsubmit=&quot;return validateForm()&quot; method=&quot;post&quot;&gt;<br>
+                  Uername：&lt;input type=&quot;text&quot; name=&quot;fname&quot;&gt;<br>
+                  &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;<br>
+                &lt;/form&gt;<br><br>
+
+                &lt;/body&gt;<br>
+                &lt;/html&gt;<br>
+
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+                <h1 style="font-size: 30px;margin-left:20px ;">DOM form validation<br></h1>
+                <div class="col-lg-1">
+                  <span class="glyphicon glyphicon-chevron-right" style="margin-top: 20px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                  </span>
+                </div>
+                <div class="col-lg-11">
+                  <h1 style="font-size: 30px;">
+                    If a form field (fname) is empty, the function sends a warning message and prevent the form from being submitted<br><br>
+                  </h1>
+                </div>
+              </div>
+            <div style="background-color: white; display: none;width: 100%;" id="textbox4">
+              <div style="margin-left: 10px;"> 
+                <form name="myForm" action="/demo/action_page.php" onsubmit="return validateForm()" method="post">
+                  Username：<input type="text" name="fname">
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div style="text-align: center; margin-top: 20px;margin-bottom: 30px;">
+            <button onclick="showtext('textbox4')" type="button" class="btn btn-default" style="background-color: #1abc9c;border-style: none; border-radius: 0%;">
+              <h2 style="margin: 10px;">RUN</h2>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- JS AJAX code block -->
+      <div class="container block_unit">
+        <h1 style="text-align: center;"><span style="padding: 10px;">JS AJAX</span></h1>
+        <div class="row" style="margin-top: 20px;">
+          <div class="col-lg-6">
+            <div style="background-color: white;">
+              <p style="margin-left: 10px;">
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                &lt;body&gt;<br><br>
+
+                &lt;div id=&quot;ajax&quot;&gt;&lt;/div&gt;<br>
+                &lt;button type=&quot;button&quot; onclick=&quot;loadDoc()&quot;&gt;Click me&lt;/button&gt;<br><br>
+
+                &lt;script&gt;<br>
+                function loadDoc() {<br>
+                  var xhttp = new XMLHttpRequest();<br>
+                  xhttp.onreadystatechange = function() {<br>
+                    if (this.readyState == 4 &amp;&amp; this.status == 200) {<br>
+                      let APOD = JSON.parse(this.responseText);<br>
+                      document.getElementById(&quot;ajax&quot;).innerHTML = <br>
+                      &#x60;Date:${APOD.date}&lt;br&gt;<br>
+                      &lt;img src=${APOD.url}  width=&quot;540px&quot; height=&quot;540px&quot;/&gt;&lt;br&gt;<br>
+                      Explanation:${APOD.explanation}<br>
+                      &#x60;;<br>
+                    }<br>
+                  }<br>
+                  xhttp.open(&quot;GET&quot;, &quot;https://api.nasa.gov/planetary/apod?ap<br>i_key=yIsFLQnxATVTwJ0ehQfKKfoxGL8cs0SQvJ4NDMIs&quot;, true);<br>
+                  xhttp.send();<br>
+                  }<br>
+                &lt;/script&gt;<br><br>
+
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+                <h1 style="font-size: 30px;margin-left:20px ;">AJAX Example<br></h1>
+                <div class="col-lg-1">
+                  <span class="glyphicon glyphicon-chevron-right" style="margin-top: 20px; margin-left:15px; color: #1abc9c; font-size: 25px;">
+                  </span>
+                </div>
+                <div class="col-lg-11">
+                  <h1 style="font-size: 30px;">
+                    Get APOD(Astromony Picture of the Day) from NASA website<br><br>
+                  </h1>
+                </div>
+              </div>
+            <div style="background-color: white; display: none;width: 100%;" id="textbox5">
+              <div style="margin-left: 10px;"> 
+                <div id="ajax"></div>
+                <button type="button" onclick="loadDoc()">Click me</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div style="text-align: center; margin-top: 20px;margin-bottom: 30px;">
+            <button onclick="showtext('textbox5')" type="button" class="btn btn-default" style="background-color: #1abc9c;border-style: none; border-radius: 0%;">
+              <h2 style="margin: 10px;">RUN</h2>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- DOM javascript -->>
+      <script>
+        /* DOM HTML */
+        var x = document.getElementsByClassName("intro");
+        document.getElementById("demo").innerHTML = 'Class = intro index 0: ' + x[0].innerHTML;
+
+        /* DOM CSS */
+        document.getElementById("p2").style.color = "blue";
+        document.getElementById("p2").style.textAlign = "center";
+      </script>
+
+      <!-- Footer block --> 
+      <footer id="footer" style="background-color: gray;">
+        <div class="container">
+          <div class="row">
+            <a href="html.html">
+            <div class="col-lg-3" style="text-align: center;height: 100px;">
+              <span class="glyphicon glyphicon-header footer_icon"></span>
+              <span class="footer_icon_text"></br>HTML</span>
+            </div>
+            </a>  
+            <a href="css.html">
+              <div class="col-lg-3" style="text-align: center;height: 100px;">
+                <span class="glyphicon glyphicon-picture footer_icon"></span>
+                <span class="footer_icon_text"></br>CSS</span>
+              </div>
+            </a> 
+            <a href="javascript.html">
+              <div class="col-lg-3" style="text-align: center;height: 100px;">
+                <span class="glyphicon glyphicon-cog footer_icon"></span>
+                <span class="footer_icon_text"></br>JavaScript</span>
+              </div>
+            </a> 
+            <a href="CV.html">
+              <div class="col-lg-3" style="text-align: center;height: 100px;">
+                <span class="glyphicon glyphicon-user footer_icon"></span>
+                <span class="footer_icon_text"></br>CV</span>
+              </div>
+            </a> 
+          </div>    
+        </div>
+
+        <div class="row" style="margin-top: 70px;text-align: center;">
+          <div style="background-color: white; width: 90%;height: 2px;margin: 0 auto;"></div>
+          <div>
+            <p style="color: white;">
+              Designed by Eddie
+            </p>
+          </div>
+        </div>
+      </footer>
+
+    </body>
+</html>
